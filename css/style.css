@@ -3,7 +3,7 @@
 body{
     font: 17px Verdana;
     margin: 0px;
-	background-color: #808080;
+	background-color: #d6d0d0;
 }
 
 [class*="col-"] {
@@ -22,9 +22,10 @@ body{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   [class*="col-"] {
     width: 100%;
+    background-color: #C0C0C0;
   }
 }
 .tonijn{
@@ -53,7 +54,7 @@ body{
 .col-12{
     position: bottom;
     background-color: silver;
-    height: 30px;
+    height: 40px;
     bottom: 0;
     text-align: center;
 }
